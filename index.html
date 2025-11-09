@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - DevOps Assignment</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #667eea;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 8px 16px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background: #667eea;
+            color: white;
+        }
+        main {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+        p {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        .feature-box {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #667eea;
+        }
+        .feature-box ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        .feature-box li {
+            margin-bottom: 8px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">DevOps Assignment</div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <h1>Welcome to DevOps Assignment</h1>
+            <p>This is a web application created for the DevOps assignment demonstrating Git, GitHub, and Docker integration.</p>
+            
+            <div class="feature-box">
+                <h2>Assignment Features</h2>
+                <ul>
+                    <li>Git version control system</li>
+                    <li>GitHub repository integration</li>
+                    <li>Docker containerization</li>
+                    <li>Docker Hub deployment</li>
+                </ul>
+            </div>
+            
+            <div class="feature-box">
+                <h2>Technologies Used</h2>
+                <ul>
+                    <li>HTML5 & CSS3</li>
+                    <li>Flask (Python)</li>
+                    <li>Docker</li>
+                    <li>Git & GitHub</li>
+                </ul>
+            </div>
+        </main>
+        
+        <footer>
+            <p>&copy; 2024 DevOps Assignment. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
+
